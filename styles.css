@@ -1,0 +1,165 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica,  Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    padding: 10px;
+    border-bottom: 1px seashell solid;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: flex-start
+}
+
+.navContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navContainer nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navContainer nav ul li{
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+
+.logoContainer > img{
+    height: 0px 10px;
+}
+
+
+.bannerContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.bannerInner{
+    background-image: url("./images/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bannerCaption{
+    background-color: black;
+    width: 100%;
+}
+
+
+
+.galleryHeading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galleryContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.galleryGroup{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryContainer img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+
+}
+
+.galleryGroup h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+footer div.center{
+    text-align: center;
+    height: 200px;
+}
+
+footer div.left{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.locations {
+    background-image: url("images/img-locations-background.webp");
+    background-size: cover; 
+    background-position: center;  
+    background-repeat: no-repeat;  
+    height: 500px;  
+    width: 1200px;  
+    margin: 0 auto; 
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.locationsHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.locationsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 40px 15px 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+.location h3, .location h4{
+    margin: 20px;
+}
